@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(183, 88%, 74%);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  border-radius: 2em;
+  background-color: hsl(132, 100%, 81%);
+  width: 90%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 2em;
+  margin-block-end: 1em;
+}
+
+span {
+  padding: 0.2em;
+}
+
+.name {
+  font-size: 1.5rem;
+}
+
+.pod {
+  background-color: hsl(132, 100%, 81%);
+  border-radius: 2em;
+  width: 80%;
+  box-shadow: 0 0 50px hsl(132, 100%, 81%);
+  margin-block-end: 2em;
+}
+
+.villagers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.villagers-list-item {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
